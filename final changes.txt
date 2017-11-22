@@ -1,0 +1,23 @@
+1. navigation: menu: text change
+
+While visting certain page the normal black text should chnage to pink(primary color).
+
+2. About Page:
+
+Text in the box should be centered.
+
+3. Childtrust page:
+
+The text should aligned and gap between text should be reduced
+
+a new box should be inserted in betwwen the text.
+
+4. Product page:
+
+Text in the box should be centered.
+
+Insert two images (side-by-side)
+
+5.Register Page:
+
+the menu button should be in blue color (secondary color)
