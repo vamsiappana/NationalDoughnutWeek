@@ -1,0 +1,81 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Doughnut Week - The Children's Trust</title>
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+  </head>
+  <body>
+    <div class="row">
+        <div class="columns small-12">
+            <div class="top-bar">
+                <div class="top-bar-title">
+                    <a href="/" class="logo"><img src="assets/img/logo.svg" alt="National Doughnut Week"></a>
+                    <span data-responsive-toggle="responsive-menu" data-hide-for="large">
+                        <button class="menu-icon dark" type="button" data-toggle></button>
+                    </span>
+                </div>
+                <div id="responsive-menu">
+                    <div class="top-bar-left">
+                        <ul class="menu">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="about.html">About NDW</a></li>
+                            <li><a href="childtrust.html">The Children's Trust</a>
+
+                            </li>
+                            <li><a href="#">Find a Bakery</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="tips.html">Tips for Businesses</a></li>
+                            <li><a href="product.html">CSM Product Page</a></li>
+                        </ul>
+                    </div>
+                    <div class="top-bar-right">
+                        <ul class="menu">
+                            <li class="social"><a class="fa fa-facebook" href=""></a></li>
+                            <li class="social"><a class="fa fa-instagram" href=""></a></li>
+                            <li class="social"><a class="fa fa-twitter" href=""></a></li>
+                            <li><a href="register.html" class="button primary radius">Register</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+    {{> body}}
+
+
+        <footer>
+            <div class="row expanded contrast pt-xs pb-xs">
+                
+                <div class="row">
+                    <div class="columns large-2 medium-12 small-12">
+                        <a href="/" class="logo"><img src="assets/img/logo.svg" alt="National Doughnut Week"></a>
+                    </div>
+                    <div class="columns large-5 medium-12 small-12">
+                        <p class="pt-sm">&copy; 2017 National Doughnut Week. All rights reserved.</p>
+                    </div>
+                    <div class="columns large-4 medium-12 small-12 text-right">
+                        <ul class="menu align-right">
+                            <li class="social"><a class="fa fa-facebook" href=""></a></li>
+                            <li class="social"><a class="fa fa-instagram" href=""></a></li>
+                            <li class="social"><a class="fa fa-twitter" href=""></a></li>
+                            <li><a href="http://www.minttwist.com">Website design by MintTwist</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+      
+      
+      <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,700,700i" rel="stylesheet"> 
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="{{root}}assets/js/app.js"></script>
+  </body>
+</html>

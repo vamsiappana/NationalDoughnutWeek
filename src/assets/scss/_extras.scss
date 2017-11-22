@@ -1,0 +1,265 @@
+body {
+    font-feature-settings:"salt" 1;
+}
+
+// -- Margin top utilities -- //
+.mt-xl { margin-top:8em; }
+.mt-lg { margin-top:6em; }
+.mt-md { margin-top:4em; }
+.mt-sm { margin-top:2em; }
+.mt-xs { margin-top:1em; }
+
+// -- Margin bottom utilities -- //
+.mb-xl { margin-bottom:8em; }
+.mb-lg { margin-bottom:6em; }
+.mb-md { margin-bottom:4em; }
+.mb-sm { margin-bottom:2em; }
+.mb-xs { margin-bottom:1em; }
+
+// -- Padding top utilities -- //
+.pt-xl { padding-top:8em; }
+.pt-lg { padding-top:6em; }
+.pt-md { padding-top:4em; }
+.pt-sm { padding-top:2em; }
+.pt-xs { padding-top:1em; }
+
+// -- Padding bottom utilities -- //
+.pb-xl { padding-bottom:8em; }
+.pb-lg { padding-bottom:6em; }
+.pb-md { padding-bottom:4em; }
+.pb-sm { padding-bottom:2em; }
+.pb-xs { padding-bottom:1em; }
+
+.semibold { font-weight:500; }
+
+.top-bar {
+    text-transform: uppercase;
+}
+
+.button {
+    color: $white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.button.outline {
+    background: transparent !important;
+    border:2px solid;
+}
+
+.button.outline.secondary {
+    border-color: $secondary-color;
+    color: $secondary-color !important;
+}
+
+.logo{
+    img{
+        width:120px;
+    }
+}
+.logo svg {
+    display: block;
+    height: 4.25rem;
+    overflow: hidden;
+}
+
+.menu a {
+    color: $dark-gray;
+}
+
+
+.menu .social {
+    font-size:150%;
+}
+
+
+
+
+.logos .columns {
+    border-right:2px solid $light-gray;
+}
+
+.logos img {
+    max-height:64px;
+}
+
+.row.contrast {
+    background:$light-gray;
+}
+
+.row.leftrightimages img.left {
+    display: block;
+    float: left;
+    transform: translateX(-4em);
+}
+.row.leftrightimages img.right {
+    display: block;
+    float: right;
+    transform: translateX(4em);
+}
+
+.row.leftrightimages img {
+    box-shadow: 0 0 25px rgba(0,0,0,.2);
+    transition-duration: .5s;
+}
+
+.row.leftrightimages img:hover {
+    box-shadow: 0 0 25px rgba(0,0,0,.8);
+    transition-duration: .5s;
+}
+
+.row.bigpink {
+    background:$primary-color;
+    color: $white;
+}
+
+.row.bigpink h2 {
+    margin:0;
+}
+
+.text-color-primary{
+    color: $primary-color
+}
+.text-color-secondary{
+    color: $secondary-color
+}
+
+.row.contrast h2, .row.contrast h3, .row.contrast h4 {
+    color: $primary-color;
+}
+
+.row.bigblue {
+    background:$secondary-color;
+    color: $white;
+}
+
+.row.bigblue h3 {
+    margin:0;
+}
+
+.box {
+   background-color: white;
+   width: 300px;
+   padding: 25px;
+   margin: 25px;
+}
+
+.box.contrast  {
+    background:$white;
+}
+
+blockquote {
+    font-size: $global-font-size * 1.4;
+}
+
+blockquote.smaller {
+    font-size: $global-font-size;
+}
+
+blockquote.smaller p {
+    padding:.5rem 2rem;
+}
+blockquote.smaller p:first-of-type {
+    padding-top:2rem;
+}
+blockquote.smaller p:last-of-type {
+    padding-bottom:1rem;
+}
+
+blockquote:before {
+    content:open-quote;
+    font-family: georgia;
+    font-size: 4rem;
+    line-height: 1;
+    color: $primary-color;
+    float: left;
+}
+
+blockquote:after {
+    content:close-quote;
+    font-family: georgia;
+    font-size: 4rem;
+    line-height: 1;
+    color: $primary-color;
+    float: right;
+}
+blockquote p {
+    margin: 0;
+    padding: 2rem 2rem 1rem 2rem;
+}
+
+
+footer .contrast {
+    border-top:2px solid $primary-color;
+}
+
+.newlogo {
+    background-size:cover;
+    color: $white;
+}
+
+
+.hero {
+    background-image: linear-gradient(90deg, #1bbcd3, rgba(#1bbcd3,0.001)),url(../img/es01.jpg); 
+    background-image: url(../img/home-hero.jpg);
+    background-size: cover;
+    color:$white;
+    border-top: 2px solid $secondary-color;
+
+    .button{
+        background:white;
+        color:#d3549f;
+    }
+}
+
+.hero--secondary{
+    background-image: linear-gradient(90deg, #d3549f, rgba(#d3549f,0.001)),url(../img/es01.jpg); 
+
+    .button{
+        background:white;
+        color:#1bbcd3;
+    }
+}
+
+
+.middlebox{
+    background-color: white;
+    padding: 80px;
+}
+
+.text-uppercase{
+    text-transform:uppercase;
+}
+
+.middlebox2{
+
+    background-color: white;
+    padding: 25px;
+}
+
+.text-uppercase{
+
+    text-transform:uppercase;
+}
+.float_col1{
+
+ float:left;
+ margin-left:10%;
+ width: 500px;
+}
+
+.middlebox3{
+
+    background-color: $secondary-color;
+    padding: 20px;
+  
+  }
+
+
+.logos-grid{
+    img{
+        float: left;
+        margin-right:1em;
+        margin-bottom:1em;
+    }
+}
